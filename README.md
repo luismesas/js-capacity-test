@@ -1,4 +1,4 @@
--Javascript Capacity Test-
+# Javascript Capacity Test
 
 This is an application designed to test and prove a javascript developper capacities.
 
