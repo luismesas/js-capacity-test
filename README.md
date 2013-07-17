@@ -15,7 +15,7 @@ Instructions:
 - Install npm ( https://npmjs.org/ )
 - Install connect node.js module ( *npm install connect* )
 - Fork the project and clone it in your local git repository
-- Launch the server *node todo-node.js* (it will start listening in localhost:8080 )
+- Launch the server *node todo-node.js* (it will start listening in localhost:8181 )
 - Access in your favorite web browser to localhost:8181
 - Fix the code errors
 - Send a pull request with the code fixed.
