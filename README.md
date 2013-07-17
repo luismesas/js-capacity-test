@@ -2,7 +2,7 @@
 
 This is an application designed to test and prove a javascript developer capacities.
 
-Use node.js to launch a local server. The application have several bugs in javascript code.
+Use node.js to launch a local server. The application has several bugs in javascript code.
 
 In order to complete the test, you must make a fork of this repository, and then submit a pull request with the code mistakes solved.
 
@@ -22,9 +22,9 @@ Instructions:
 - Send a pull request with the code fixed.
 
 
-These are the errors which make the application crashes:
+These are the errors which make the application non functional:
 - the application shows an error and doesn't display nothing :(
-- adding a todo cause an error to be thrown in console
+- adding a todo item causes an error to be shown in the console
 - todo filter is not working :(
-- destroying a todo causes a error to be shown in the console, and the todo doesn't disapear until the page get refreshed
-- when you try to complete a task, it counts in the "items left" counter, but it dosen't get marked as completed
+- destroying a todo causes an error to be shown in the console, and the todo doesn't disappear until the page get refreshed
+- when you try to complete a task, it counts in the "items left" counter, but it doesn't get marked as completed
