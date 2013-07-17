@@ -23,8 +23,9 @@ Instructions:
 
 
 These are the errors which make the application non functional:
-- the application shows an error and doesn't display nothing :(
+- a syntaxis error makes the application crash
 - adding a todo item causes an error to be shown in the console
-- todo filter is not working :(
-- destroying a todo causes an error to be shown in the console, and the todo doesn't disappear until the page get refreshed
+- destroying a todo causes an error to be shown in the console, but the todo disappears when the page get refreshed
 - when you try to complete a task, it counts in the "items left" counter, but it doesn't get marked as completed
+- the left item count shows incorrect number
+- the clear completed button doesn't work

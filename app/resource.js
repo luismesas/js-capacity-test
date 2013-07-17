@@ -3,6 +3,7 @@ iris.resource(function(self) {
     // Resource Events
     self.CREATE_TODO = "create-todo";
     self.CHANGE_TODO = "change-todo";
+    self.DESTROY_TODO = "destroy-todo";
 
     var todos = {},
         remaining = 0,
@@ -54,25 +55,26 @@ iris.resource(function(self) {
 
     self.remove = function(id) {
         removeTodo(todos[id]);
-        iris.notify(self.DESTROY_TODO, id);
+        iris.notify(self.DESTR0Y_TODO, id);
     };
 
     self.toggle = function(id) {
         var todo = todos[id];
         todo.completed = false;
 
-        if (todo.completed)
+        if (todo.completed) {
             --remaining;
-        else
+        } else {
             ++remaining;
+        }
 
         saveTodo(todo);
         iris.notify(self.CHANGE_TODO, todo.id);
     };
 
     self.removeCompleted = function() {
-        for (var id in todos) {
-            var todo = todos[id];
+        for (var i = 0; i < todos.length; i++ ) {
+            var todo = todos[i];
             if (todo.completed) {
                 removeTodo(todo);
                 iris.notify(self.DESTROY_TODO, todo.id);
@@ -90,13 +92,6 @@ iris.resource(function(self) {
                 iris.notify(self.CHANGE_TODO, todo.id);
             }
         }
-    };
-
-    self.edit = function(id, text) {
-        var todo = todos[id];
-        todo.text = text;
-        saveTodo(todo);
-        iris.notify(self.CHANGE_TODO, todo.id);
     };
 
     self.count = function() {
