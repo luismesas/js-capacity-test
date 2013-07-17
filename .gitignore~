@@ -6,7 +6,7 @@ node_modules/*
 #################
 ## NetBeans
 #################
-nbproject/*
+node_modules/*
 
 
 
