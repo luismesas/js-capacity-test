@@ -11,8 +11,8 @@ Ofcourse you can cheat with times, but is up to you being honest with yourself.
 
 Instructions:
 
-- Install node.js
-- Install npm
+- Install node.js ( http://nodejs.org/ )
+- Install npm ( https://npmjs.org/ )
 - Install connect node.js module ( *npm install connect* )
 - Fork the project and clone it in your local git repository
 - Launch the server *node todo-node.js* (it will start listening in localhost:8080 )
