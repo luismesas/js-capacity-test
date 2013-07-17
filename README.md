@@ -1,11 +1,12 @@
 # Javascript Capacity Test
 
-This is an application designed to test and prove a javascript developper capacities.
+This is an application designed to test and prove a javascript developer capacities.
 
-Its use node.js to launch a local server and the application have several mistakes in javascript code.
-In order to complete the test, you must make a fork of this repository, and then submit a pull request
-with the code mistakes solved. The time between the fork and the pull request, is going to be considered 
-as well the solutions/fixes proposed.
+Use node.js to launch a local server. The application have several bugs in javascript code.
+
+In order to complete the test, you must make a fork of this repository, and then submit a pull request with the code mistakes solved.
+
+The time between the fork and the pull request, is going to be considered as well the solutions/fixes proposed.
 
 Ofcourse you can cheat with times, but is up to you being honest with yourself.
 
@@ -21,7 +22,7 @@ Instructions:
 - Send a pull request with the code fixed.
 
 
-There are errors, wich make the application non functional.
+These are the errors which make the application crashes:
 - the application shows an error and doesn't display nothing :(
 - adding a todo cause an error to be thrown in console
 - todo filter is not working :(
