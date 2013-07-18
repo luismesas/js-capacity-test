@@ -1,6 +1,6 @@
 # Javascript Capacity Test
 
-This is an application designed to test and prove a javascript developer capacities.
+This is an application designed to test and prove a javascript developer capabilities.
 
 Use node.js to launch a local server. The application has several bugs in javascript code.
 
