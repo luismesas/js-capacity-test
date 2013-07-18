@@ -8,7 +8,7 @@ In order to complete the test, you must make a fork of this repository, and then
 
 The time between the fork and the pull request, is going to be considered as well the solutions/fixes proposed.
 
-Ofcourse you can cheat with times, but is up to you being honest with yourself.
+Of course you can cheat with times, but is up to you being honest with yourself.
 
 Instructions:
 
